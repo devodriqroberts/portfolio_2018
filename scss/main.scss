@@ -139,6 +139,9 @@ main {
             @include easeOut;
         }
     }
+    .proj-des {
+        color: $secondary-color;
+    }
 }
 
 // Contacts page
@@ -174,6 +177,9 @@ main {
     &:hover {
         background: $secondary-color;
         color: set-text-color($secondary-color);
+        .proj-des {
+            color: set-text-color($secondary-color);
+        }
     }
 }
 
@@ -181,6 +187,7 @@ main {
     @extend .btn;
     background: darken($primary-color, 50);
     color: #fff;
+    text-align: start;
 }
 
 .btn-light {

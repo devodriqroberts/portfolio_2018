@@ -214,6 +214,8 @@ main {
       opacity: 0.5;
       border-color: #df9711;
       transition: all 0.5s ease-out; }
+  .projects .proj-des {
+    color: #df9711; }
 
 .boxes {
   display: flex;
@@ -242,10 +244,13 @@ main {
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #df9711;
     color: #000; }
+    .btn:hover .proj-des, .btn-dark:hover .proj-des, .btn-light:hover .proj-des {
+      color: #000; }
 
 .btn-dark {
   background: black;
-  color: #fff; }
+  color: #fff;
+  text-align: start; }
 
 .btn-light {
   background: #c4c4c4;
