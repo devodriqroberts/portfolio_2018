@@ -185,7 +185,23 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: 5px #df9711 solid; }
+    border-bottom: 5px #df9711 solid;
+    border-radius: 20px; }
+    .about-info .job .head {
+      border-bottom: 3px #df9711 solid; }
+    .about-info .job ul {
+      text-align: left; }
+      .about-info .job ul a {
+        color: #2b2b2b; }
+        .about-info .job ul a:hover {
+          color: #df9711;
+          transition: all 0.5s ease-out; }
+    .about-info .job h3 {
+      color: #df9711; }
+    .about-info .job h5 {
+      color: #2b2b2b; }
+    .about-info .job #grad-year {
+      color: #df9711; }
 
 .projects {
   display: grid;

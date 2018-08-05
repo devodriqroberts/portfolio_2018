@@ -99,6 +99,29 @@ main {
         background: lighten($primary-color, 5);
         padding: 0.5rem;
         border-bottom: 5px $secondary-color solid;
+        border-radius: 20px;
+        .head {
+            border-bottom: 3px $secondary-color solid;
+        }
+        ul {
+            text-align: left;
+            a {
+                color: darken($primary-color, 10);
+                &:hover {
+                    color: $secondary-color;
+                    @include easeOut;
+                }
+            }
+        }
+        h3 {
+            color: $secondary-color;
+        }
+        h5 {
+            color: darken($primary-color, 10);
+        }
+        #grad-year {
+            color: $secondary-color;
+        }
     }
 }
 
